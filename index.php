@@ -172,7 +172,7 @@
                   <div class="row">
                      <div class="col-md-12">
                         <div class="media">
-                          <img class="mr-3 msg" src="image/principal.png" width="200px" height="200px" alt="Card image cap">
+                          <img class="mr-3 msg" src="image/staff/Ambia Akter.png" width="200px" height="200px" alt="Card image cap">
                           <div class="media-body">
                             <h5 class="mt-0">Welcome Message</h5>
                             <p class="card-text" style="text-align: justify; padding: 5px ">
@@ -183,8 +183,8 @@
                            </p>
                            <small class="p-2 float-left">
                             <strong>
-                            Engr. Jabed Al Shahariar <br>
-                            Principal <br>
+                            Ambia Akter <br>
+                            Principal(In-Charge) <br>
                             Sylhet Professional Technical Institute
                               </strong>
                            </small>
