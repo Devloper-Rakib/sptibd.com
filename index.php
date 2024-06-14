@@ -4,13 +4,13 @@
 <?php
     include("header.php");
     ?>
-    <!-- end: header -->
+<!-- end: header -->
 
-    <!-- BING: admission marquee -->
-    <?php
+<!-- BING: admission marquee -->
+<?php
     include("admissionmarquee.php");
     ?>
-    <!-- END: admission marquee -->
+<!-- END: admission marquee -->
 
 <!--Slider Area-->
 <!-- <div class="slider">
@@ -44,6 +44,30 @@
 </div>
 <!--/Slider Area-->
 
+
+<!-- Admission modal popup -->
+<div class="modal fade" id="admissionModal" tabindex="-1" role="dialog" aria-labelledby="admissionModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header align-items-center pb-0 d-none d-sm-flex">
+                <h5 class="modal-title h3 kalpurush text-center" style="color:#4056a1; font-weight: 600;" id="exampleModalCenterTitle">ভর্তি চলছে !! ভর্তি চলছে !! ভর্তি চলছে
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fa-solid fa-xmark"></i></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <a href="admission.php">
+                    <img src="image/poster/admission-modal-popup.jpg" width="100%" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <!-- committee -->
 <div class="container">
     <div class="row">
@@ -57,7 +81,7 @@
                             <div class="row justify-content-center g-2">
                                 <!-- committee: Charman -->
                                 <div class="col-12 col-sm-6 col-md-12">
-                                    <h5 class="title-bar">Charman</h5>
+                                    <h5 class="title-bar">Chairman</h5>
                                     <div class="card mb-3 rounded-0" style="max-width: 540px;">
                                         <div class="row g-0">
                                             <div class=" col-sm-12 align-items-center">
@@ -82,8 +106,7 @@
                                     <div class="card mb-3 rounded-0" style="max-width: 540px;">
                                         <div class="row g-0">
                                             <div class=" col-sm-12">
-                                                <img src="image/staff/Abul Kasem.jpg" class="img-fluid"
-                                                    alt="...">
+                                                <img src="image/staff/Abul Kasem.jpg" class="img-fluid" alt="...">
                                             </div>
                                             <div class=" col-sm-12">
                                                 <div class="card-body">
@@ -103,8 +126,7 @@
                                     <div class="card mb-3 rounded-0" style="max-width: 540px;">
                                         <div class="row g-0">
                                             <div class=" col-sm-12">
-                                                <img src="image/staff/shah alam.jpg" class="img-fluid"
-                                                    alt="...">
+                                                <img src="image/staff/shah alam.jpg" class="img-fluid" alt="...">
                                             </div>
                                             <div class=" col-sm-12">
                                                 <div class="card-body">
@@ -122,8 +144,8 @@
                                     <div class="card mb-3 rounded-0" style="max-width: 540px;">
                                         <div class="row g-0">
                                             <div class=" col-sm-12">
-                                                <img src="image/staff/Ayesha Siddqua Nipa.jpg"
-                                                    class="img-fluid" alt="image/staff/Ayesha Siddqua Nipa.jpg">
+                                                <img src="image/staff/Ayesha Siddqua Nipa.jpg" class="img-fluid"
+                                                    alt="image/staff/Ayesha Siddqua Nipa.jpg">
                                             </div>
                                             <div class=" col-sm-12">
                                                 <div class="card-body">
@@ -173,11 +195,12 @@
                                     May the blessing of almighty Allah be upon with us.
                                 </p>
                                 <small class="p-2 float-left">
-                                    <strong>
-                                        Ambia Akter <br>
-                                        Principal(In-Charge) <br>
-                                        Sylhet Professional Technical Institute
-                                    </strong>
+                                    <h5>
+                                        Ambia Akter
+                                    </h5>
+                                    Principal(In-Charge) <br>
+                                    Sylhet Professional Technical Institute
+
                                 </small>
                             </div>
                         </div>
@@ -463,6 +486,7 @@
     </div>
 </div>
 </div>
+
 <!---Start footer Area--->
 <footer class="footer">
     <div class="container">
@@ -487,6 +511,27 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+
+
+
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+<!-- Custom Script to Show Modal on Page Load -->
+<script>
+$(document).ready(function() {
+    $('#admissionModal').modal('show');
+});
+</script>
+
+
+
+
+
+
 <script>
 $('.owl-carousel').owlCarousel({
     loop: true,

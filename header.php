@@ -28,15 +28,31 @@
     <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
     <style>
     .kalpurush {
-        font-family: 'Kalpurush', Arial, sans-serif !important;
+        font-family: 'Kalpurush', 'Arial', 'sans-serif' !important;
     }
 
     ;
+
+    /* .fa-whatsapp {
+        
+    }
+    .fa-whatsapp::after {
+        content:" Connect With Whatsapp";
+        font-size:10px;
+    } */
     </style>
 
 </head>
 
 <body>
+
+    <!-- whatsapp icon -->
+    <a href="https://wa.me/+8801734033583" class="whatsapp-icon p-0"
+        style="position: fixed; bottom: 2%; left: 2%; z-index:1000;">
+        <i class="fa-brands fa-whatsapp fs-3 align-items-center p-2" style="color: #fff; font-size: 2rem; border-radius: 50%; background-color: #25d366; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); padding: 8px 10px !important;"></i>
+    </a>
+
+
     <!--top header-->
     <div class="header-top">
         <div class="container">
@@ -57,7 +73,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-1 text-center">
-                    <img src="image/logo.png" class="img-fluid" width="100px" alt="SPTI LOGO">
+                    <a href="index.php">
+                        <img src="image/logo.png" class="img-fluid" width="100px" alt="SPTI LOGO">
+                    </a>
                 </div>
                 <div class="col-md-11">
                     <div class="web-head text-center">
